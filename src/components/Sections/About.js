@@ -1,4 +1,4 @@
-import React from 'react' 
+import React from 'react';
 import classes from './About.module.css';
 
 const About =() => {
@@ -17,8 +17,10 @@ const About =() => {
                   {/* <li className={classes.twitter}>ONE</li> */}
               </ul>
               <h5>Contact Me Here!</h5>
-              <h4 className={classes.eph}>Email: <p>likhansarkar007@gmail.com</p></h4>
+              <h4 className={classes.eph}>Email: <a href="mailto:likhansarkar007@gmail.com">likhansarkar007@gmail.com</a></h4>
               <h4 className={classes.eph}>Phone: <p>(+91) 8420614409</p></h4>
+          </div>
+          <div className={classes.image}>
           </div>
       </div>
   );
