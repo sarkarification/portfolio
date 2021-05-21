@@ -1,0 +1,17 @@
+.appContainer{
+    background-color: #121212;
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+}
+
+.app{
+    background-color: transparent;
+    width: 70%;
+    margin: auto;
+    /* border: 2px solid white; */
+    height: 900rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content : center;
+    align-items : center; */
+}
