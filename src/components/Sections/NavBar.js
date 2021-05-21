@@ -1,10 +1,17 @@
-import React from 'react';
+import React from 'react' ;
 import { FaGithub,FaFacebook,FaInstagram,FaLinkedinIn,FaReact, FaHeart} from 'react-icons/fa';
-import classes from './Footer.module.css';
+import classes from './NavBar.module.css';
+import Modal from './Modal.js';
 
-const Footer = () => {
+const NavBar =(props) => {
     return (
-        <div className={classes.footer}>
+      <Modal onClose={props.onClose}>
+      <div className={classes.navBar}>
+      <h5>Contact Me Here!</h5>
+      <h4> {"Email:"}</h4><a href="mailto:likhansarkar007@gmail.com">likhansarkar007@gmail.com</a>
+      <p> Phone: (+91) 8420614409</p>
+      </div>
+      <div className={classes.navfooter}>
                 <ul>
                     <li><a href="https://github.com/sarkarification"><FaGithub  className={classes.skilliconsimage}/></a></li>
                     <li><a href="https://www.facebook.com/likhan.trueblue"><FaFacebook className={classes.skilliconsimage}/></a></li>
@@ -16,7 +23,15 @@ const Footer = () => {
                 <br></br>
                 Please visit my <FaGithub /> to support.
         </div>
+      </Modal>
+
     );
 }
+  
+export default NavBar;
 
-export default Footer;
+  
+
+
+
+

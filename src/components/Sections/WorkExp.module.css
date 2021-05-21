@@ -96,3 +96,16 @@
     font-weight: 300;
     letter-spacing: 1.5px;
 }
+
+@media (max-width: 40rem)
+{
+    .WorkExp{
+        height: 85rem;
+        margin-top: 8rem;
+    }
+    .WorkExp h1{
+        top: -2rem;
+        right: 1rem;
+        font-size: 6rem;
+    }
+}

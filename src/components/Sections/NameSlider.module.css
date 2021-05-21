@@ -28,6 +28,26 @@
     margin: 0
 }
 
+@media (max-width: 40rem) {
+
+  .sliderDiv h1{
+      font-weight: 700;
+      font-size: 3.43rem;
+      letter-spacing: 10px;
+      text-align: center;
+      margin: 0
+  }
+
+  .sliderDiv h2{
+      color: #FFFFFF99;
+      font-weight: 300;
+      font-size: 1.25rem;
+      letter-spacing: 4px;
+      margin: 0
+  }
+    
+}
+
 @keyframes name-appear {
     0% {
       opacity: 0;
