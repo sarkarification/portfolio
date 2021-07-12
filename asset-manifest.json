@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4dabfb42.chunk.css",
-    "main.js": "/portfolio/static/js/main.7b904cec.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7b904cec.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.61c7bf28.chunk.css",
+    "main.js": "/portfolio/static/js/main.b47a1f48.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b47a1f48.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.eb82859d.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.eb82859d.js.map",
-    "static/js/2.79133851.chunk.js": "/portfolio/static/js/2.79133851.chunk.js",
-    "static/js/2.79133851.chunk.js.map": "/portfolio/static/js/2.79133851.chunk.js.map",
+    "static/js/2.1f378eb6.chunk.js": "/portfolio/static/js/2.1f378eb6.chunk.js",
+    "static/js/2.1f378eb6.chunk.js.map": "/portfolio/static/js/2.1f378eb6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.4dabfb42.chunk.css.map": "/portfolio/static/css/main.4dabfb42.chunk.css.map",
-    "static/js/2.79133851.chunk.js.LICENSE.txt": "/portfolio/static/js/2.79133851.chunk.js.LICENSE.txt",
+    "static/css/main.61c7bf28.chunk.css.map": "/portfolio/static/css/main.61c7bf28.chunk.css.map",
+    "static/js/2.1f378eb6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1f378eb6.chunk.js.LICENSE.txt",
+    "static/media/AboutMe.module.css": "/portfolio/static/media/Pride.a633b093.jpg",
     "static/media/Header.module.css": "/portfolio/static/media/likhan_image.0585cc78.jpg",
     "static/media/WorkExp.module.css": "/portfolio/static/media/wipro-limited-vector-logo.bc5cfd2e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.eb82859d.js",
-    "static/js/2.79133851.chunk.js",
-    "static/css/main.4dabfb42.chunk.css",
-    "static/js/main.7b904cec.chunk.js"
+    "static/js/2.1f378eb6.chunk.js",
+    "static/css/main.61c7bf28.chunk.css",
+    "static/js/main.b47a1f48.chunk.js"
   ]
 }
