@@ -21,7 +21,7 @@ const AboutMe = () => {
       </div>
       <div className={classes.image5}>
         {" "}
-        <p className={classes.imageCaption}>Originally from Kolkata</p>
+        <p className={classes.imageCaption}>Originally from Calcutta</p>
       </div>
       <div className={classes.image6}>
         {" "}

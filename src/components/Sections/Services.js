@@ -1,6 +1,6 @@
 import React from "react";
 import { FaReact, FaNodeJs, FaJava, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiCplusplus } from "react-icons/si";
+import { SiCsharp } from "react-icons/si";
 import classes from "./Services.module.css";
 
 const Services = () => {
@@ -41,11 +41,11 @@ const Services = () => {
           <h2>Node.Js</h2>
         </li>
         <li>
-          <SiCplusplus
+          <SiCsharp
             style={{ color: "#044F88" }}
             className={classes.skilliconsimage}
           />
-          <h2>C++</h2>
+          <h2>C#</h2>
         </li>
         <li>
           <FaJava

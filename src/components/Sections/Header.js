@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import { BsArrowUpRight } from "react-icons/bs";
 import "./Header.css";
 
 const Header = (props) => {
@@ -13,7 +13,7 @@ const Header = (props) => {
         <span>Let's</span>
         <span>talk</span>
         <span id="arrow">
-          <FaRegArrowAltCircleRight fill="white" />
+          <BsArrowUpRight fill="white" />
         </span>
       </button>
     </div>
