@@ -1,22 +1,23 @@
-import React from 'react' 
-import classes from './Header.module.css';
+import React from "react";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
+import "./Header.css";
 
-const Header =(props) => {
-
-
+const Header = (props) => {
   return (
-    <div className={classes.headerDiv}>
-      <div className={classes.nameTag}>
-          <div className={classes.imageHeader}></div>
-          <h1>LIKHAN SARKAR</h1>
+    <div className={"headerDiv"}>
+      <div className={"nameTag"}>
+        <div className={"imageHeader"}></div>
+        <h1>LIKHAN SARKAR</h1>
       </div>
-      <button className={classes.toggleButton} onClick={props.onShow}>
-                <span></span>
-                <span></span>
-                <span></span>
+      <button className={"toggleButton"} onClick={props.onShow}>
+        <span>Let's</span>
+        <span>talk</span>
+        <span id="arrow">
+          <FaRegArrowAltCircleRight fill="white" />
+        </span>
       </button>
     </div>
   );
-}
+};
 
 export default Header;

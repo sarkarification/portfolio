@@ -1,0 +1,121 @@
+.aboutme {
+  /* border: 2px solid white; */
+  margin-top: 10rem;
+  width: 100%;
+  height: 52rem;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5rem);
+  grid-gap: 1.5rem;
+}
+
+.image1 {
+  width: 100%;
+  background: url("../../assets/coffee.jpg") center/cover no-repeat border-box,
+    #ffffff;
+  height: 100%;
+  border-radius: 20px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.image2 {
+  width: 100%;
+  background: url("../../assets/beach.jpg") center/cover no-repeat border-box,
+    #ffffff;
+  height: 100%;
+  border-radius: 20px;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.image3 {
+  width: 100%;
+  background: url("../../assets/london.jpg") center/cover no-repeat border-box,
+    #ffffff;
+  height: 100%;
+  border-radius: 20px;
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.image4 {
+  width: 100%;
+  background: url("../../assets/berlin.jpg") center/ cover no-repeat border-box,
+    #ffffff;
+  height: 100%;
+  border-radius: 20px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.image5 {
+  width: 100%;
+  background: url("../../assets/Kolkata.jpg") left 10% top 20% / cover no-repeat
+      border-box,
+    #ffffff;
+  height: 100%;
+  border-radius: 20px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.image6 {
+  width: 100%;
+  background: url("../../assets/Pride.jpg") center/cover no-repeat border-box,
+    #ffffff;
+  height: 100%;
+  border-radius: 20px;
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.imageCaption {
+  margin-left: 2%;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+@media (max-width: 48rem) {
+  .aboutme {
+    width: 90%;
+    height: 25rem;
+    margin: auto;
+    margin-top: 10rem;
+    grid-template-rows: repeat(9, 5vw);
+    grid-gap: 1.5rem;
+  }
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: none;
+  }
+  .image4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
+  .image5 {
+    grid-row-start: 6;
+    grid-row-end: 10;
+  }
+  .image6 {
+    grid-row-start: 6;
+    grid-row-end: 10;
+  }
+}
