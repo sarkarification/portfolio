@@ -22,12 +22,20 @@ const NavBar = (props) => {
       <div className={classes.navfooter}>
         <ul>
           <li>
-            <a href="https://github.com/sarkarification" target="_blank">
+            <a
+              href="https://github.com/sarkarification"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub className={classes.skilliconsimage} />
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/likhan.trueblue" target="_blank">
+            <a
+              href="https://www.facebook.com/likhan.trueblue"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaFacebook className={classes.skilliconsimage} />
             </a>
           </li>
@@ -35,12 +43,17 @@ const NavBar = (props) => {
             <a
               href="https://www.instagram.com/sarkarification/"
               target="_blank"
+              rel="noreferrer"
             >
               <FaInstagram className={classes.skilliconsimage} />
             </a>
           </li>
           <li>
-            <a href="https://linkedin.com/in/likhan-sarkar/" target="_blank">
+            <a
+              href="https://linkedin.com/in/likhan-sarkar/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedinIn className={classes.skilliconsimage} />
             </a>
           </li>

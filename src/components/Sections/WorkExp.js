@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./WorkExp.css";
+import "./WorkExp.css";
 
 const WorkExp = () => {
   return (

@@ -18,6 +18,7 @@ const About = () => {
             "https://drive.google.com/file/d/1YhtoVuvFna-V-Rx1ykZfzgfoSuMrfCsX/view?usp=sharing"
           }
           target="_blank"
+          rel="noreferrer"
         >
           Checkout my resume
         </a>
