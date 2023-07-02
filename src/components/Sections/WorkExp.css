@@ -122,3 +122,9 @@
     margin-top: 70rem !important;
   }
 }
+
+@media (max-width: 24rem) {
+  #jll {
+    margin-top: 80rem !important;
+  }
+}
